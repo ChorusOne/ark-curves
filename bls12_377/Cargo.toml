@@ -13,10 +13,10 @@ license = "MIT/Apache-2.0"
 edition = "2018"
 
 [dependencies]
-ark-ff = { version="^0.3.0", default-features = false }
-ark-ec = { version="^0.3.0", default-features = false }
-ark-r1cs-std = { version="^0.3.0", default-features = false, optional = true }
-ark-std = { version="^0.3.0", default-features = false }
+ark-ff = {git = "https://github.com/ChorusOne/ark-algebra", branch = "giulio/random", default-features = false }
+ark-ec = {git = "https://github.com/ChorusOne/ark-algebra", branch = "giulio/random", default-features = false }
+ark-r1cs-std = {git = "https://github.com/ChorusOne/ark-r1cs-std", branch = "giulio/random", default-features = false, optional = true }
+ark-std = {git = "https://github.com/ChorusOne/ark-std", branch = "giulio/random_feature", default-features = false }
 
 [dev-dependencies]
 ark-relations = { version="^0.3.0", default-features = false }

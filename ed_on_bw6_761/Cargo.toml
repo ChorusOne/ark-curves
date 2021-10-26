@@ -13,7 +13,7 @@ license = "MIT/Apache-2.0"
 edition = "2018"
 
 [dependencies]
-ark-ed-on-cp6-782 = { version = "^0.3.0", path = "../ed_on_cp6_782", default-features = false }
+ark-ed-on-cp6-782 = {path = "../ed_on_cp6_782", default-features = false }
 
 [dev-dependencies]
 ark-relations = { version = "^0.3.0", default-features = false }
